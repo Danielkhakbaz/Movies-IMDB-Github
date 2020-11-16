@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Movies-IMDB-Github/static/css/main.9126d0aa.chunk.css",
+    "main.js": "/Movies-IMDB-Github/static/js/main.2b2a8c77.chunk.js",
+    "main.js.map": "/Movies-IMDB-Github/static/js/main.2b2a8c77.chunk.js.map",
+    "runtime-main.js": "/Movies-IMDB-Github/static/js/runtime-main.0c90338b.js",
+    "runtime-main.js.map": "/Movies-IMDB-Github/static/js/runtime-main.0c90338b.js.map",
+    "static/css/2.12795900.chunk.css": "/Movies-IMDB-Github/static/css/2.12795900.chunk.css",
+    "static/js/2.3d06c038.chunk.js": "/Movies-IMDB-Github/static/js/2.3d06c038.chunk.js",
+    "static/js/2.3d06c038.chunk.js.map": "/Movies-IMDB-Github/static/js/2.3d06c038.chunk.js.map",
+    "index.html": "/Movies-IMDB-Github/index.html",
+    "precache-manifest.77e153f276d88eae450ff0bbb6113580.js": "/Movies-IMDB-Github/precache-manifest.77e153f276d88eae450ff0bbb6113580.js",
+    "service-worker.js": "/Movies-IMDB-Github/service-worker.js",
+    "static/css/2.12795900.chunk.css.map": "/Movies-IMDB-Github/static/css/2.12795900.chunk.css.map",
+    "static/css/main.9126d0aa.chunk.css.map": "/Movies-IMDB-Github/static/css/main.9126d0aa.chunk.css.map",
+    "static/js/2.3d06c038.chunk.js.LICENSE.txt": "/Movies-IMDB-Github/static/js/2.3d06c038.chunk.js.LICENSE.txt",
+    "static/media/Header-Movies-Image.jpg": "/Movies-IMDB-Github/static/media/Header-Movies-Image.c22dde0b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c90338b.js",
+    "static/css/2.12795900.chunk.css",
+    "static/js/2.3d06c038.chunk.js",
+    "static/css/main.9126d0aa.chunk.css",
+    "static/js/main.2b2a8c77.chunk.js"
+  ]
+}
