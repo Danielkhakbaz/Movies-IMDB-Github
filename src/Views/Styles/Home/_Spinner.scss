@@ -1,0 +1,20 @@
+$whiteColor: #ffffff;
+$greenColor: #16d47b;
+
+.loading__icon {
+    width: 4rem;
+    height: 4rem;
+    animation: spinningButton 0.8s linear infinite;
+    border: 0.3rem solid $whiteColor;
+    border-top: 0.3rem solid $greenColor;
+    border-radius: 50%;
+    margin: 1.4rem auto;
+}
+@keyframes spinningButton {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

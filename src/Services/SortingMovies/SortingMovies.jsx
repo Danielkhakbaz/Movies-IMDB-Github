@@ -1,0 +1,41 @@
+export const sortingMovies = [
+    {
+        path: "",
+        labelAsc: "Default",
+        labelDesc: "Default",
+        className: "sorting__button btn btn-info m-2",
+        classNameIconDesc: "sorting__icon fa fa-repeat",
+    },
+    {
+        path: "title",
+        labelAsc: "A to Z",
+        labelDesc: "Z to A",
+        className: "sorting__button btn btn-warning m-2",
+        classNameIconAsc: "sorting__icon fas fa-sort-alpha-down",
+        classNameIconDesc: "sorting__icon fas fa-sort-alpha-down-alt",
+    },
+    {
+        path: "release_date",
+        labelAsc: "Oldest",
+        labelDesc: "Newest",
+        className: "sorting__button btn btn-primary m-2",
+        classNameIconAsc: "sorting__icon fas fa-calendar-minus",
+        classNameIconDesc: "sorting__icon fas fa-calendar-plus",
+    },
+    {
+        path: "popularity",
+        labelAsc: "Least Popular",
+        labelDesc: "Most Popular",
+        className: "sorting__button btn btn-danger m-2",
+        classNameIconAsc: "sorting__icon fas fa-sort-amount-down-alt",
+        classNameIconDesc: "sorting__icon fas fa-sort-amount-down",
+    },
+    {
+        path: "vote_average",
+        labelAsc: "Worst Rating",
+        labelDesc: "Best Rating",
+        className: "sorting__button btn btn-dark m-2",
+        classNameIconAsc: "sorting__icon fas fa-sort-numeric-down",
+        classNameIconDesc: "sorting__icon fas fa-sort-numeric-down-alt",
+    },
+];

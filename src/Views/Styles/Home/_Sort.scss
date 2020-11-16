@@ -1,0 +1,25 @@
+$whiteColor: #ffffff;
+
+.sorting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+.sorting__button {
+    &:hover :first-child {
+        transform: translate(0px, -5px);
+        transition: ease-out 0.5s;
+    }
+}
+.sorting__icon  {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0.4rem;
+    padding: 0.2rem;
+    border: 1px solid $whiteColor;
+    border-radius: 4px;
+}
+.sorting__title {
+    color: white;
+}

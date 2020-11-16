@@ -1,0 +1,28 @@
+$whiteColor: #ffffff;
+@mixin posterText {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: $whiteColor;
+    text-shadow: 1px 1px #1d1d1d;
+}
+
+.poster {
+    height: 89vh;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.98),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url(https://wallpaperstream.com/wallpapers/thumbnails/avengers-infinity-war/Avengers-Infinity-War-Full-Casts-Poster_thumb2x.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.poster__title {
+    @include posterText();
+}
+.poster__overview {
+    width: 80%;
+    @include posterText();
+}

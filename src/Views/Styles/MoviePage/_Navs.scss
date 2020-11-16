@@ -1,0 +1,24 @@
+$blackColor: #000000;
+$blueColor: rgb(0, 174, 255);
+$whiteColor: #ffffff;
+$none: none;
+
+.navigation {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    background: #555555;
+    padding: 6px 0;
+}
+.navigation__link {
+    font-size: 1.2rem;
+    color: $blackColor;
+    text-decoration: $none;
+    &:hover {
+        color: $blueColor;
+        text-decoration: $none;
+    }
+}
+.navigation__span {
+    font-size: 16px;
+    color: $whiteColor;
+}

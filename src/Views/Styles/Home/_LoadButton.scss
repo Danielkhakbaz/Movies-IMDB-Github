@@ -1,0 +1,7 @@
+$movies__button--load: #16d47b;
+$whiteColor: #ffffff;
+
+.loadmore__button button {
+    background-color: $movies__button--load;
+    color: $whiteColor;
+}

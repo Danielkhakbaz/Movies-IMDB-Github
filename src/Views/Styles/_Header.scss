@@ -1,0 +1,13 @@
+header {
+    height: 11vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 1)
+    );
+    display: flex;
+}
+header img {
+    width: 20%;
+    margin: 1% 5%;
+}
